@@ -1,0 +1,11 @@
+---
+baseurl: "https://frankliu624.me/"
+DefaultContentLanguage: "zh"
+hasCJKLanguage: true
+languageCode: "zh"
+title: "Frank Liu"
+theme: "beautifulhugo"
+metaDataFormat: "yaml"
+subtitle: "Standing on the Shoulder of Giants."
+dateFormat: "January 2, 2018"
+---
