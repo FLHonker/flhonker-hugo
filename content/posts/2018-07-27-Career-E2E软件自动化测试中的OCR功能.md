@@ -1,16 +1,11 @@
 ---
-layout:     post
-title:      E2E软件自动化测试中的OCR功能
-subtitle:   基于sikuli进行二次开发自动化的测试工具，使用tesseract-OCR进行文本识别与定位。
-date:       2018-07-27
-author:     Frank Liu
-header-img: img/post-bg-coffee.jpg
-catalog: true
-tags:
-    - Algorithm
-    - sikuli
-    - tessercact
+title: "E2E软件自动化测试中的OCR功能"
+date: 2018-07-27T20:30:04+08:00
+draft: false
+categories: "opencv"
+tags: ["Algorithm","opencv","tessercact"]
 ---
+
 
 # E2E软件自动化测试中的OCR功能
 

@@ -89,10 +89,10 @@ He has been blogging and coding for years on Cloud Native, also translated Cloud
 
 ### Contact
 
-- Wechat: jimmysong
-- Email: jimmysong@jimmysong.io
-- [Twitter@jimmysongio](https://twitter.com/jimmysongio)
-- [Facebook@jimmysongio](https://facebook.com/jimmysongio)
+- Wechat: FLHonker
+- Email: frankliu624@gmail.com
+- [Twitter@Frank Liu](https://twitter.com/FrankLi17399372)
+- [Facebook@Frank Liu](https://facebook.com/FLHonker)
 - [500px](https://500px.com/jimmysongio)
 - [图虫(Tuchong Photography)](https://jimmysong.tuchong.com)
 - [知乎专栏——云原生应用架构](https://zhuanlan.zhihu.com/cloud-native)

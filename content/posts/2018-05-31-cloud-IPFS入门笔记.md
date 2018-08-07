@@ -1,15 +1,9 @@
 ---
-layout:     post
-title:      IPFS入门笔记
-subtitle:   永久的、去中心化的、共享文件系统
-date:       2018-05-31
-author:     Frank Liu
-header-img: img/post-bg-ipfs.jpg
-catalog: true
-tags:
-    - IPFS
-    - cloud
-    - blockchain
+title: "IPFS入门笔记"
+date: 2018-05-31T22:45:54+08:00
+draft: false
+categories: "blockchain"
+tags: ["IPFS","cloud","blockchain"]
 ---
 
 # IPFS入门笔记

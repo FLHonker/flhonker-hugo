@@ -1,15 +1,10 @@
 ---
-layout:     post
-title:      opencv实战：人脸关键点检测（FaceMark）
-subtitle:   利用OpenCV中的LBF算法进行人脸关键点检测（Facial Landmark Detection）
-date:       2018-05-03
-author:     Frank Liu
-header-img: img/post-bg-2015.jpg
-catalog: true
-tags:
-    - Linux
+title: "opencv实战：人脸关键点检测（FaceMark）"
+date: 2018-06-04T22:45:54+08:00
+draft: false
+categories: "opencv"
+tags: ["opencv","linux","FaceMark"]
 ---
-
 
 # opencv实战：人脸关键点检测（FaceMark）
 
@@ -234,15 +229,15 @@ void drawLandmarks(Mat &im, vector<Point2f> &landmarks)
     // 在脸上绘制68点及轮廓（点的顺序是特定的，有属性的）
     if (landmarks.size() == 68)
     {
-      drawPolyline(im, landmarks, 0, 16);           // Jaw line
-      drawPolyline(im, landmarks, 17, 21);          // Left eyebrow
-      drawPolyline(im, landmarks, 22, 26);          // Right eyebrow
-      drawPolyline(im, landmarks, 27, 30);          // Nose bridge
-      drawPolyline(im, landmarks, 30, 35, true);    // Lower nose
-      drawPolyline(im, landmarks, 36, 41, true);    // Left eye
-      drawPolyline(im, landmarks, 42, 47, true);    // Right Eye
-      drawPolyline(im, landmarks, 48, 59, true);    // Outer lip
-      drawPolyline(im, landmarks, 60, 67, true);    // Inner lip
+        drawPolyline(im, landmarks, 0, 16);           // Jaw line
+        drawPolyline(im, landmarks, 17, 21);          // Left eyebrow
+        drawPolyline(im, landmarks, 22, 26);          // Right eyebrow
+        drawPolyline(im, landmarks, 27, 30);          // Nose bridge
+        drawPolyline(im, landmarks, 30, 35, true);    // Lower nose
+        drawPolyline(im, landmarks, 36, 41, true);    // Left eye
+        drawPolyline(im, landmarks, 42, 47, true);    // Right Eye
+        drawPolyline(im, landmarks, 48, 59, true);    // Outer lip
+        drawPolyline(im, landmarks, 60, 67, true);    // Inner lip
     }
     else 
     { 

@@ -1,14 +1,9 @@
 ---
-layout:     post
-title:      ICBC广州研发部实习第一周经历
-subtitle:   OpenCV+OCR算法研究与应用
-date:       2018-07-27
-author:     Frank Liu
-header-img: img/post-bg-1.jpg
-catalog: true
-tags:
-    - carcer
-    - opencv
+title: "ICBC广州研发部实习第一周经历"
+date: 2018-07-27T19:30:04+08:00
+draft: false
+categories: "career"
+tags: ["career","opencv"]
 ---
 
 # ICBC广州研发部实习第一周经历

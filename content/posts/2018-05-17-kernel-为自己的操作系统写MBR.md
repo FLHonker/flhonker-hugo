@@ -1,15 +1,9 @@
 ---
-layout:     post
-title:      为自己的操作系统写MBR
-subtitle:   利用汇编写个MBR主引导，进入硬盘启动你的OS
-date:       2018-05-17
-author:     Frank Liu
-header-img: img/post-bg-cpu.jpg
-catalog: true
-tags:
-    - Kernel
-    - OS
-    - MBR
+title: "为自己的操作系统写MBR"
+date: 2018-05-17T10:45:54+08:00
+draft: false
+categories: "OS"
+tags: ["OS","kernel","MBR"]
 ---
 
 # 为自己的操作系统写MBR
