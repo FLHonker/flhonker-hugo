@@ -1,6 +1,6 @@
-# My blog's source code
+# Frank blog's source code
 
-[Jimmy Song's blog](https://jimmysong.io) source code
+[Frank Liu's blog](https://flhonker.github.io) source code
 
 Proudly powered by [Hugo](https://github.com/gohugoio/hugo) ❤️, Theme by [Beautiful Jekyll](http://deanattali.com/beautiful-jekyll/) adapted to [Beautiful Hugo](https://github.com/halogenica/beautifulhugo)
 
@@ -61,7 +61,7 @@ grep -v '"content":' algolia.json>rootsongjc-hugo.json
 rm -f algolia.json
 ```
 
-As the  new post created there should be a new record added to this file `public/rootongjc-hugo.json`.
+As the  new post created there should be a new record added to this file `public/flhonker-hugo.json`.
 
 ## Acknowledgements
 

@@ -8,4 +8,4 @@ do
         echo "$x $i"
     fi
 done
-echo "Total $total"
+echo "Total words: $total"

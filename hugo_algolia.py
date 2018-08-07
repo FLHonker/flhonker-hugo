@@ -16,8 +16,8 @@ def get_admin_key():
     return ADMIN_API_KEY
 
 # fill them
-APPLICATION_ID = 'X4YB3WOBNV'
-SEARCH_ONLY_API_KEY = 'd2134c5a8d250e6d3246594240c45201'
+APPLICATION_ID = 'AZMWPQSRYA'
+SEARCH_ONLY_API_KEY = 'fa0222a12d4979dee33b5ddd9b791436'
 INDEX_NAME = 'flhonker-hugo'
 
 ADMIN_API_KEY = get_admin_key()
@@ -69,5 +69,5 @@ if __name__ == '__main__':
 # pip install algoliasearch
 # python hugo_algolia.py ALGOLIA_API_KEY="ADMIN_API_KEY"
 
-# https://jeremyyin.com
-# jeremyyin2012@gmail.com
+# http://frankliu624.me
+# frankliu624@gmail.com
