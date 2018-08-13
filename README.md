@@ -25,12 +25,12 @@ Classic example:
 ```yaml
 date: "2017-06-01T20:18:57+08:00"
 draft: false
-title: "微服务管理框架service mesh——istio安装笔记"
-subtitle: "手把手教你安装Istio service mesh"
-categories: "cloud-native"
-tags: ["kubernetes","istio","service-mesh"]
+title: "blockchain-based cloud service platform"
+subtitle: "apply blockchain to cloud service."
+categories: "cloud"
+tags: ["Linux","cloud","blockchain"]
 description: "对文章的简要描述 SEO used for description"
-bigimg: [{src: "https://res.cloudinary.com/jimmysong/image/upload/images/20170528033.jpg", desc: "威海东部海湾 May 28,2017"}]
+bigimg: [{src: "https://res.cloudinary.com/flhonker/image/upload/flhonker-hugo/share_img/post-bg-linux_5.jpg", desc: "Cloud Computing"}]
 nocomment: true
 postmeta: false
 ```
@@ -57,7 +57,7 @@ Execute this command to build a new algolia index at the project's base path:
 
 ```Bash
 hugo-alogolia
-grep -v '"content":' algolia.json>rootsongjc-hugo.json
+grep -v '"content":' algolia.json>flhonker-hugo.json
 rm -f algolia.json
 ```
 
