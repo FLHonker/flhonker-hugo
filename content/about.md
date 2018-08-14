@@ -27,7 +27,7 @@ bigimg: [{src: "https://res.cloudinary.com/flhonker/image/uploadflhonker-hugo/sh
 
 ### Bio
 
-Frank Liu is a Developer Advocate on computer vision and blockchain. He has deployed and operated the cloud platform business for a number of small and medium-sized enterprises, and obtained qualifications such as `IDC operation and maintenance certification engineer`, `HDCP-Cloud Service certification`, and `(intermediate) software designer`. , rich in competitions and projects. Watching his [schedule](https://flhonker.github.io/about/#activities). He has been blogging and coding for years on Cloud Service, CV and blockchain, also translated Cloud Service & CV & blockchain papers into Chinese.
+Frank Liu is a Developer Advocate on computer vision and blockchain. He has deployed and operated the cloud platform business for a number of small and medium-sized enterprises, and obtained qualifications such as `IDC operation and maintenance certification engineer`, `HDCP-Cloud Service certification`, and `(intermediate) software designer`, rich in competitions and projects. Watching his [schedule](https://flhonker.github.io/about/#activities). He has been blogging and coding for years on Cloud Service, CV and blockchain, also translated Cloud Service & CV & blockchain papers into Chinese.
 
 ### GitHub
 
