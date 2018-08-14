@@ -8,7 +8,7 @@ nocomment: true
 postmeta: false
 notoc: true
 seealso: false
-bigimg: [{src: "https://res.cloudinary.com/flhonker/image/uploadflhonker-hugo/share_img/post-bg-linux_8.jpg", desc: "Kernel"}]
+bigimg: [{src: "https://res.cloudinary.com/flhonker/image/upload/flhonker-hugo/share_img/post-bg-linux_8.jpg", desc: "Kernel"}]
 ---
 
 ![wechat_qrcode](https://res.cloudinary.com/flhonker/image/upload/flhonker-hugo/logo/QRCode_WeChat.png)
