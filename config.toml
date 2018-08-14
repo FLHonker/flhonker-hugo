@@ -73,44 +73,44 @@ desc = "Ubuntu is my favorite."
 
 [[menu.main]]
     parent = "Categories"
-    name = "kubernetes"
-    url = "categories/kubernetes"
+    name = "algorithm"
+    url = "categories/algorithm"
     weight = 1
 
 [[menu.main]]
     parent = "Categories"
-    name = "Cloud Native"
-    url = "categories/cloud-native"
+    name = "blockchain"
+    url = "categories/blockchain"
     weight = 2
 
 [[menu.main]]
     parent = "Categories"
-    name = "Microservices"
-    url = "categories/microservices"
+    name = "Go"
+    url = "categories/go"
     weight = 3
 
 [[menu.main]]
     parent = "Categories"
-    name = "Devops"
-    url = "categories/devops"
+    name = "opencv"
+    url = "categories/opencv"
     weight = 4
 
 [[menu.main]]
     parent = "Categories"
-    name = "Github"
-    url = "categories/github"
+    name = "Linux"
+    url = "categories/linux"
     weight = 5
 
 [[menu.main]]
     parent = "Categories"
-    name = "Serverless"
-    url = "categories/serverless"
+    name = "Career"
+    url = "categories/career"
     weight = 6
 
 [[menu.main]]
     parent = "Categories"
-    name = "Service Mesh"
-    url = "categories/service-mesh"
+    name = "C++"
+    url = "categories/c++"
     weight = 7
 
 [[menu.main]]
@@ -126,20 +126,20 @@ desc = "Ubuntu is my favorite."
 
 [[menu.main]]
     parent = "Gitbooks"
-    name = "Kubernetes handbook"
-    url = "kubernetes-handbook"
+    name = "OpenCV docs"
+    url = "https://docs.opencv.org/"
     weight = 1
 
 [[menu.main]]
     parent = "Gitbooks"
-    name = "Docker handbook"
-    url = "docker-handbook"
+    name = "CentOS7扩展根分区操作手册"
+    url = "posts/2018-04-26-centos7-linux扩展根分区"
     weight = 2
 
 [[menu.main]]
     parent = "Gitbooks"
     name = "Hugo Handbook"
-    url = "hugo-handbook"
+    url = "http://www.gohugo.org/doc/"
     weight = 3
 
 [[menu.main]]
@@ -150,8 +150,8 @@ desc = "Ubuntu is my favorite."
 
 [[menu.main]]
     parent = "Gitbooks"
-    name = "Migrating to Cloud Native"
-    url = "migrating-to-cloud-native-application-architectures"
+    name = "Linux命令基础"
+    url = "posts/2018-04-27--linux-linux命令基础"
     weight = 5
 
 [[menu.main]]
@@ -184,33 +184,39 @@ desc = "Ubuntu is my favorite."
 
 [[menu.main]]
     parent = "Projects"
-    name = "k8s all-in-one"
-    url = "https://github.com/rootsongjc/kubernetes-vagrant-centos-cluster"
+    name = "Cplus-engineer"
+    url = "https://github.com/FLHonker/Cplus-engineer"
     weight = 1
 
 [[menu.main]]
     parent = "Projects"
-    name = "Spark on kubernetes"
-    url = "spark-on-k8s"
+    name = "fl-bash"
+    url = "https://github.com/FLHonker/fl-bash"
     weight = 2
 
 [[menu.main]]
     parent = "Projects"
-    name = "Magpie"
-    url = "posts/yarn-on-docker"
+    name = "Cwheel"
+    url = "posts/2018-07-01-c-c语言造轮子一"
     weight = 3
 
 [[menu.main]]
     parent = "Projects"
-    name = "Cheatsheets"
-    url = "cheatsheets"
+    name = "go-BlockChain"
+    url = "2018-07-03-blockchain-go打造区块链1"
     weight = 4
 
 [[menu.main]]
     parent = "Projects"
-    name = "Beautifulhugo"
-    url = "https://github.com/rootsongjc/beautifulhugo"
+    name = "E2E Tessting OCR"
+    url = "posts/2018-07-27-career-e2e软件自动化测试中的ocr功能"
     weight = 5
+    
+[[menu.main]]
+    parent = "Projects"
+    name = "Frank's Hugo Blog"
+    url = "https://github.com/FLHonker/flhonker-hugo"
+    weight = 6
 
 [[menu.main]]
     name = "About"
