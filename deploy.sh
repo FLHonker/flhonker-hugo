@@ -6,13 +6,14 @@ if [ $# -eq 1  ]
     then msg="$1"
 fi
 
-git add -A
-git commit -m "$msg"
-git push origin master
-
 # Build the project.
 hugo -t beautifulhugo # if using a theme, replace by `hugo -t <yourtheme>`
 hugo-algolia --config algolia.yaml
+
+# commit project master
+git add -A
+git commit -m "$msg"
+git push origin master
 
 cp -r public/* $des
 # Go To Public folder
@@ -22,6 +23,7 @@ cd $des
 grep -v '"content":' algolia.json>flhonker-hugo.json
 rm -f algolia.json
 
+# public
 # Add changes to git.
 git add -A
 
