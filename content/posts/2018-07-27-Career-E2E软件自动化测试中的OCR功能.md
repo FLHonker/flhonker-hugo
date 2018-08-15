@@ -73,14 +73,19 @@ Single options:
 
 限于篇幅问题，我们对关键技术详细的设计算法在后续文章中分章节介绍。
 
-1. 控件截图预处理与去边框算法
+1. [控件截图预处理与去边框算法][11]
 
-2. 基于连通域检测的文本区域提取算法
+2. [基于连通域检测的文本区域提取算法][12]
 
-3. GUI截图文本搜索定位
+3. [GUI截图文本搜索定位][13]
 
-4. GUI截图文本搜索定位（多线程版本）
+4. [GUI截图文本搜索定位（多线程版本）][14]
 
+我们的OCR模块实现流程图如下：
+
+<div div align="center">
+<img src="https://res.cloudinary.com/flhonker/image/upload/githubio/icbc/ocr-process.jpg" width="60%" height="60%">
+</div>
 
 
 [1]:https://de.wikipedia.org/wiki/Sikuli_(Software)
@@ -93,3 +98,6 @@ Single options:
 [8]:https://github.com/opencv
 [9]:https://www.cnblogs.com/lyx2018/p/7071241.html
 [10]:https://www.cnblogs.com/yezhang/p/4006134.html
+[11]:http://frankliu624.me/posts/2018-07-28-alg-%E6%8E%A7%E4%BB%B6%E6%88%AA%E5%9B%BE%E9%A2%84%E5%A4%84%E7%90%86%E4%B8%8E%E5%8E%BB%E8%BE%B9%E6%A1%86%E7%AE%97%E6%B3%95/
+[12]:http://frankliu624.me/posts/2018-07-31-alg-%E5%9F%BA%E4%BA%8E%E8%BF%9E%E9%80%9A%E5%9F%9F%E6%A3%80%E6%B5%8B%E7%9A%84%E6%96%87%E6%9C%AC%E5%8C%BA%E5%9F%9F%E6%8F%90%E5%8F%96%E7%AE%97%E6%B3%95/
+[13]:http://frankliu624.me/posts/2018-08-14-Alg-GUI截图文本搜索定位/
