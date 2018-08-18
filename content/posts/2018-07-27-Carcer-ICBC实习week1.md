@@ -8,15 +8,16 @@ tags: ["career","opencv"]
 
 # ICBC广州研发部实习第一周经历
 
+
 <center>
-<img src="https://res.cloudinary.com/flhonker/image/upload/v1532694651/githubio/icbc/mmexport1531036987079.jpg
-" width="60%" height="60%" />
+<img src="https://res.cloudinary.com/flhonker/image/upload/githubio/icbc/mmexport1531036987079.jpg
+" width="40%" height="40%" />
 ICBC研发中心外景
 </center>
 
 <center>
-<img src="https://res.cloudinary.com/flhonker/image/upload/v1532694650/githubio/icbc/mmexport1531037069481.jpg
-" width="60%" height="60%" />
+<img src="https://res.cloudinary.com/flhonker/image/upload/githubio/icbc/mmexport1531037069481.jpg
+" width="40%" height="40%" />
 ICBC开发中心前台
 </center>
 
@@ -25,26 +26,26 @@ ICBC开发中心前台
 2018年中国工商银行广州研发部一共来了61名实习生，其中大部分是广州本地大学生（中山大学、广工、暨南大学、华南师范等），其余的就是来自武汉、西安、厦门、长沙的大学生，其实研究生的数量比本科生要多，可能因为主要是以研究为主。ICBC的的实习生待遇还是很好的：为外地学生提供三室一厅的公寓，有空调、洗衣机、厨房等，拎包入住；每月550元的饮食补贴，一天100元实习工资，有意外保险。
 
 <center>
-<img src="https://res.cloudinary.com/flhonker/image/upload/v1532694648/githubio/icbc/mmexport1531053301343.jpg
-" width="60%" height="60%" />
+<img src="https://res.cloudinary.com/flhonker/image/upload/githubio/icbc/mmexport1531053301343.jpg
+" width="40%" height="40%" />
 粤韵庭院篮球场
 </center>
 
 <center>
-<img src="https://res.cloudinary.com/flhonker/image/upload/v1532694649/githubio/icbc/mmexport1531053294392.jpg
-" width="50%" height="50%" />
+<img src="https://res.cloudinary.com/flhonker/image/upload/githubio/icbc/mmexport1531053294392.jpg
+" width="40%" height="40%" />
 卧室
 </center>
 
 <center>
-<img src="https://res.cloudinary.com/flhonker/image/upload/v1532694649/githubio/icbc/mmexport1531053285786.jpg
-" width="60%" height="60%" />
+<img src="https://res.cloudinary.com/flhonker/image/upload/githubio/icbc/mmexport1531053285786.jpg
+" width="40%" height="40%" />
 厨房
 </center>
 
 <center>
 <img src="https://res.cloudinary.com/flhonker/image/upload/v1532694649/githubio/icbc/mmexport1531053291407.jpg
-" width="60%" height="60%" />
+" width="40%" height="40%" />
 客厅
 </center>
 
@@ -52,33 +53,34 @@ ICBC开发中心前台
 ICBC研发部每天8:30上班打卡，17:30下班，没有加班，全凭自愿；中午从11:30到12:30分批去饭堂就餐，下午13:30上班。
 
 <center>
-<img src="https://res.cloudinary.com/flhonker/image/upload/v1532694654/githubio/icbc/IMG_20180723_122323.jpg
-" width="60%" height="60%" />
+<img src="https://res.cloudinary.com/flhonker/image/upload/githubio/icbc/IMG_20180723_122323.jpg
+" width="40%" height="40%" />
 餐食
 </center>
 
 正式员工一般都有自己的折叠床，中午在办公位就地睡一觉。我们外地实习生住在离公司只有步行10分钟路程的粤韵庭院公寓，非常近便，公寓附近就是天河公园，晚上可以去散步。
 
 <center>
-<img src="https://res.cloudinary.com/flhonker/image/upload/v1532694656/githubio/icbc/IMG_20180725_181138.jpg
-" width="60%" height="60%" />
+<img src="https://res.cloudinary.com/flhonker/image/upload/githubio/icbc/IMG_20180725_181138.jpg
+" width="40%" height="40%" />
 天河公园
 </center>
 
 广研中心一共有6个部：行政部、开发一部、开发二部、开发三部、开发四部和测试部，广研的实验室是研究生物识别方向，杭州、上海、北京、珠海开发中心都有实验室，分别研究不同方向。进入广研，最有感触的还是关于计算机的安全管理。所有员工包括实习生，配发个人工作电脑，win7专业版，必须严格按规范命名后入域，入域后只能访问内网资源，不能介入互联网，不能通过wifi或蓝牙与个人设备相连。内部人员统一使用“工行e通信”交流，类似于QQ，内部人员互相加好友无需同意；使用IBM notes作为内部邮件系统，可以接收外部邮件，但不能往外网发邮件；所有电脑必须安装TMS桌面管理，监控计算机安全；不允许私自安装任何未经许可的软件，只能安装共享网盘里有的软件；要想插入U盘等必须经过审批，未经审批的U盘插入只能读不能写，经过审批和格式化的U盘只能在内部计算机上互相使用；一旦计算机接入外部互联网就会被监测到被通报；等等。
 
 <center>
-<img src="https://res.cloudinary.com/flhonker/image/upload/v1532694649/githubio/icbc/mmexport1531270823951.jpg
-" width="60%" height="60%" />
+<img src="https://res.cloudinary.com/flhonker/image/upload/githubio/icbc/mmexport1531270823951.jpg
+" width="40%" height="40%" />
 计算机命名规范
 </center>
+
 ## OCR研究
 
 我被分配到广研测试部，和其余三名研究生：思奥姐、灿标、黄琼，研究E2E自动化测试的OCR功能，就是对交互场景窗体控件中的文字和数字等进行识别，生成自动化脚本，方便测试人员进行GUI的测试。我们四个在丹的带领下，实现OCR（光学字符识别）并保证识别率在90%以上，耗时在100ms以内。我当时知道这个课题，第一想到的当然是opencv，我的最爱。但是前两周我还没来报到，思奥姐和灿标两人一直是在用tesseract和自己训练的字库来识别，识别率不高，很多细节识别有误，比如数字中的逗号和小数点。由于汉字结构复杂，字库有限，识别效果很差，丹指示：我们的控件中绝大部分文本框输入的是数字，先把数字识别率提高到90%以上。于是，我们开始着手只研究数字部分的识别。
 
 <center>
-<img src="https://res.cloudinary.com/flhonker/image/upload/v1532694656/githubio/icbc/IMG_20180727_113146.jpg
-" width="60%" height="60%" />
+<img src="https://res.cloudinary.com/flhonker/image/upload/githubio/icbc/IMG_20180727_113146.jpg
+" width="40%" height="40%" />
 OCR研究小分队
 </center>
 
@@ -107,8 +109,8 @@ ok，问题解决了，[去边框的问题][10]请看下回分解，谢谢！
 我们小组的丹老大，非常年轻，很亲切，经常把我们喊到楼上吃吃喝喝。每周五下午休息时间是小组活动时间，会有丰盛的下午茶。
 
 <center>
-<img src="https://res.cloudinary.com/flhonker/image/upload/v1532694655/githubio/icbc/IMG_20180727_154718.jpg
-" width="60%" height="60%" />
+<img src="https://res.cloudinary.com/flhonker/image/upload/githubio/icbc/IMG_20180727_154718.jpg
+" width="40%" height="40%" />
 下午茶
 </center>
 
@@ -121,4 +123,3 @@ ok，问题解决了，[去边框的问题][10]请看下回分解，谢谢！
 记住一句话，拥有再好的工作，也会怀念上学的时光。
 
 
-[10]:
