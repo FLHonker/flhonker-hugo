@@ -20,7 +20,7 @@ bigimg: [{src: "https://res.cloudinary.com/flhonker/image/upload/flhonker-hugo/s
 - Career
   - [WHUT](http://www.whut.edu.cn/) （WHUT)
   - [ICBC软件开发中心广州研发部](http://www.icbc.com.cn/)
-- 爱好：看书、逛技术论坛，写博客、浏览知乎，打篮球，游泳等，对新技术充满好奇。酷爱算法设计和Linux，并尝试解决各种问题。 
+- 爱好：逛技术论坛，写博客、浏览知乎，调酒，打篮球，游泳等，对新技术充满好奇。酷爱算法设计和Linux，并尝试解决各种问题。 
 - 读的书：《Qt开发实战》，《C++ Primer》，《数据结构与算法》，《Linux运维实战》，《软件架构与模式》《Linux shell编程》，《STL源码解析》等。 
 - 我的标签：拥抱开源，尊崇学术，积极贡献。 
   
