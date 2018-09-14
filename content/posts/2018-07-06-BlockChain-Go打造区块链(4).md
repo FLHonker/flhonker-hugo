@@ -248,7 +248,7 @@ Done!
     3. tx3, output 0;
     4. tx4, output 0.
 
-当然，当我们检查余额时，我们并不需要全部，值需要那些我们有私钥可以解锁的部分。（目前我们还没有实现私钥，将用用户定义的地址来代替）。首先，让我们在输入和输出上定义锁定-解锁方法：
+当然，当我们检查余额时，我们并不需要全部，只需要那些我们有私钥可以解锁的部分。（目前我们还没有实现私钥，将用用户定义的地址来代替）。首先，让我们在输入和输出上定义锁定-解锁方法：
 ```go
 // transaction.go
 
@@ -266,14 +266,17 @@ func (out *TXOutput) CanBeUnlockedWith(unlockingData string) bool {
 下一步-寻找含有未花费输出的交易记录-实现起来非常的难：
 ```go
 // FindUnspentTransactions 返回一组包含未花费的产出的交易
-func (bc *BlockChain) FindUnspentTransactions(address string) []Transaction {
+func (bc *Blockchain) FindUnspentTransactions(address string) []Transaction {
 	var unspentTXs []Transaction
 	spentTXOs := make(map[string][]int)
 	bci := bc.Iterator()
+
 	for {
 		block := bci.Next()
+
 		for _, tx := range block.Transactions {
 			txID := hex.EncodeToString(tx.ID)
+
 		Outputs:
 			for outIdx, out := range tx.Vout {
 				// Was the output spent?
@@ -294,7 +297,7 @@ func (bc *BlockChain) FindUnspentTransactions(address string) []Transaction {
 				for _, in := range tx.Vin {
 					if in.CanUnlockOutputWith(address) {
 						inTxID := hex.EncodeToString(in.Txid)
-						spentTXOs[inTxID] = append(spentTXOs[inTxID])
+						spentTXOs[inTxID] = append(spentTXOs[inTxID], in.Vout)
 					}
 				}
 			}
@@ -304,6 +307,7 @@ func (bc *BlockChain) FindUnspentTransactions(address string) []Transaction {
 			break
 		}
 	}
+
 	return unspentTXs
 }
 ```
@@ -326,7 +330,7 @@ if spentTXOs[txID] != nil {
     }
 }
 ```
-我们将忽略哪些已经与输入相关的的输出（它们的价值已经转移到其它的输出，所以不能再统计它们）。检查输出以后，我们手机所有那些可以结果被提供的地址锁上的输出的输入（这对币基交易记录不适用，因为它们不解锁任何输出）：
+我们将忽略那些已经与输入相关的的输出（它们的价值已经转移到其它的输出，所以不能再统计它们）。检查输出以后，我们手机所有那些可以结果被提供的地址锁上的输出的输入（这对币基交易记录不适用，因为它们不解锁任何输出）：
 ```go
 if tx.IsCoinbase() == false {
     for _, in := range tx.Vin {
@@ -383,7 +387,7 @@ Balance of 'Ivan': 10
 
 ## 10 发送币（Sending Coins）
 
-现在，我们想要给其他人发一些币过去。为此，我们需要创建一个新的交易记录，把它放到区块当中，然后挖坑。到目前为止，我们只实现了币基交易记录（特殊的一种交易记录），现在我们需要一个普通的交易记录：
+现在，我们想要给其他人发一些币过去。为此，我们需要创建一个新的交易记录，把它放到区块当中，然后挖矿。到目前为止，我们只实现了币基交易记录（特殊的一种交易记录），现在我们需要一个普通的交易记录：
 ```go
 // transaction.go
 
