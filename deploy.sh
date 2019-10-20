@@ -36,4 +36,4 @@ git push origin master
 cd ../
 
 # Update algolia index
-python3 hugo_algolia.py ALGOLIA_API_KEY="fa0222a12d4979dee33b5ddd9b791436"
+# python3 hugo_algolia.py ALGOLIA_API_KEY="fa0222a12d4979dee33b5ddd9b791436"
