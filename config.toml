@@ -1,4 +1,4 @@
-baseurl = "https://flhonker.github.io"
+baseurl = "https://flhonker.github.io/"
 DefaultContentLanguage = "en-us"
 hasCJKLanguage = true
 languageCode = "zh"
